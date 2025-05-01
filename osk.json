@@ -1,0 +1,795 @@
+{
+  "intents": [
+    {
+      "tag": "school_times",
+      "patterns": [
+        "What time does school start and end?",
+        "When do school hours begin and finish?",
+        "What are the school start and end times?",
+        "At what time does school open and close?",
+        "When should my child arrive and leave?",
+        "What are the timings for the school day?",
+        "When does the school day begin and end?",
+        "What is the start and finish time for school?",
+        "When does school begin and what time does it end?",
+        "When are children supposed to be at school?",
+        "How long is the school day?",
+        "When does the bell ring in the morning and afternoon?",
+        "At what time should students arrive?",
+        "What time is school dismissal?",
+        "When are school gates open and closed?",
+        "What time should pupils get to school?",
+        "What is the latest time my child can arrive?",
+        "What time is school over?",
+        "What is my child is late?",
+        "Whan do I collect my child?",
+        "When does my child finish school?"
+      ],
+      "responses": [
+        "School day starts at 8:45am and ends 3:15pm. Pupils that are late must check in at the school office. Children should arrive by 8:50am and be picked up at 3:15pm unless enrolled in after-school care."
+      ]
+    },
+    {
+      "tag": "dropOff_pickUp",
+      "patterns": [
+        "Can my child walk to and from school alone?",
+        "Is it okay for my child to leave school on their own?",
+        "Do I have to drop off and pick up my child?",
+        "When can my child come and go independently?",
+        "Is parental escort required at drop off?",
+        "Can my kid enter school by themselves?",
+        "Are children allowed to leave by themselves?",
+        "Do I need to take my child to the classroom?",
+        "Does my child need an adult at drop off?",
+        "Is it mandatory to collect my child in person?",
+        "At what age can kids walk home alone?",
+        "What are the rules around independent travel?",
+        "Can I let my child leave the school alone?",
+        "Do older children need a pickup?",
+        "Can Year 6 walk home?",
+        "Can Year 5 students leave school alone?",
+        "Who needs to pick up children from school?",
+        "Do Key Stage 1 pupils need to be escorted?",
+        "Can Key Stage 2 pupils come alone?",
+        "Is there an age limit for self-pickup?"
+      ],
+      "responses": [
+        "Children in Years R–2 must be brought and collected by an adult. Years 3–6 can enter on their own. Years 5 and 6 may leave alone with written permission. All others must be collected by an adult."
+      ]
+    },
+    {
+      "tag": "school_childcare",
+      "patterns": [
+        "Do you offer before and after school care?",
+        "Is childcare available outside school hours?",
+        "Do you provide wrap-around care?",
+        "What childcare options does the school have?",
+        "Is there before school supervision?",
+        "Is there an after school club?",
+        "Can I drop my child off early?",
+        "Can my child stay late at school?",
+        "What are the wraparound care timings?",
+        "Do you offer care before lessons?",
+        "Do you run an aftercare program?",
+        "When does after school care finish?",
+        "What time does breakfast club start?",
+        "Do you have childcare till I finish work?",
+        "Can I book extended care for my child?",
+        "How much is after school care?",
+        "Is wraparound care paid or free?",
+        "Do I need to sign up for breakfast club?",
+        "Is there a cost for wrap-around childcare?"
+      ],
+      "responses": [
+        "We offer breakfast club from 7:45am and after school care until 6:00pm. Breakfast club costs £4 and after school care is £7. For booking, contact Summar at summarosk@gmail.com."
+      ]
+    },
+    {
+      "tag": "school_clubs",
+      "patterns": [
+        "What clubs are offered after school?",
+        "Do you run any school clubs?",
+        "What after school activities are available?",
+        "Can my child join a school club?",
+        "What extracurricular activities are offered?",
+        "Is there a list of school clubs?",
+        "Are there lunchtime clubs?",
+        "Do you run free school clubs?",
+        "Are school clubs paid or free?",
+        "How long do after school clubs run?",
+        "How do I sign up for clubs?",
+        "What kind of clubs are available?",
+        "When are clubs held?",
+        "Are clubs after lessons end?",
+        "Can children join clubs every term?",
+        "Are all year groups offered clubs?",
+        "Do clubs require registration?",
+        "Can my child try a club first?",
+        "What is the latest time for club pick-up?",
+        "Where do I find info on school clubs?"
+      ],
+      "responses": [
+        "We offer a mix of free and paid clubs after school until 4:15pm. Details of clubs are sent to parents by email each term."
+      ]
+    },
+    {
+      "tag": "childcare_meals",
+      "patterns": [
+        "Are meals provided at breakfast and after school clubs?",
+        "Do wraparound care sessions include food?",
+        "Will my child be fed in before and after school care?",
+        "Does childcare include meals?",
+        "Do they get food in aftercare?",
+        "Do you serve breakfast in morning club?",
+        "Will my child get a snack after school?",
+        "Is food part of the childcare session?",
+        "What do kids eat in before school care?",
+        "What meals are served in childcare?",
+        "Is breakfast included in the club?",
+        "Do I need to send food for aftercare?",
+        "Are snacks given after school?",
+        "Will my child get dinner at after school club?",
+        "Is there food at wrap-around care?",
+        "What kind of food is offered in the clubs?",
+        "Is the food provided or packed by parents?",
+        "Do I need to pack a meal for clubs?",
+        "Do they eat at the before school club?",
+        "What do you serve at breakfast club?"
+      ],
+      "responses": [
+        "Yes, children receive breakfast and a light tea at the appropriate times.",
+        "We offer cereal, toast, fruit, sandwiches, and snacks during wrap-around care sessions."
+      ]
+    },
+    {
+      "tag": "school_meals",
+      "patterns": [
+        "Do children get lunch at school?",
+        "Are school meals provided?",
+        "Can my child bring a packed lunch?",
+        "Is lunch free at school?",
+        "Do I pay for school meals?",
+        "What is on the school menu?",
+        "Do you serve food every day?",
+        "Can I choose school dinners?",
+        "Are vegetarian options available?",
+        "Can I see the school menu?",
+        "What kind of meals are served?",
+        "Do you offer allergy safe meals?",
+        "How much is a school lunch?",
+        "Is there a meal plan?",
+        "Are hot lunches served?",
+        "Is lunch included in school fees?",
+        "Do you cater for dietary restrictions?",
+        "Is lunch mandatory?",
+        "Do all kids eat at school?",
+        "Can my child alternate between school lunch and packed lunch?"
+      ],
+      "responses": [
+        "Lunch is cooked on-site by Hampshire County Council Catering. Free for Years R–2, £3.20 for Years 3–6. Packed lunches from home are allowed. Our menu rotates every 3 weeks and includes allergy-safe and vegetarian options."
+      ]
+    },
+    {
+      "tag": "school_uniform",
+      "patterns": [
+        "What is the school uniform policy?",
+	"What should my child wear to school",
+        "What uniform do children wear?",
+        "Where do I buy the school uniform?",
+        "What is the uniform for girls?",
+        "What do boys wear to school?",
+        "Can I get uniform anywhere?",
+        "What shoes should my child wear?",
+        "Is branded uniform required?",
+        "Do you sell school uniform?",
+        "What is required for school clothes?",
+        "Do pupils need to wear specific colours?",
+        "What is the dress code?",
+        "Can my child wear any clothes?",
+        "Is uniform compulsory?",
+        "Can I use second-hand uniforms?",
+        "Is there a summer and winter uniform?",
+        "Are skirts allowed for girls?"
+      ],
+      "responses": [
+        "Pupils must wear white shirts, grey trousers/skirts, and black shoes. You can purchase uniform at Skoolkit or buy equivalent items from any retailer."
+      ]
+    },
+    {
+      "tag": "contact_school",
+      "patterns": [
+        "How do I contact the school?",
+        "What is the school's phone number?",
+        "What is the school email address?",
+        "How can I get in touch with the office?",
+        "I need to speak to someone at the school.",
+        "Can I call the school?",
+        "How do I email the school?",
+        "Who do I talk to at the school?",
+        "How can I reach the front office?",
+        "Can I phone the school directly?",
+        "Is there a number to call the school?",
+        "What is the best way to contact school?",
+        "How do I talk to admin?",
+        "How do I message the school?",
+        "How do I report something to the school?",
+        "Can I contact the school office?",
+        "I have a query for the school.",
+        "Where do I send my questions?",
+        "Can I speak to someone at the front desk?",
+        "What is the official school contact info?"
+      ],
+      "responses": [
+        "You can call the school at 0207 456 7789 during office hours or email oskschool.org.uk.",
+        "School is open 9am–4pm for contact. Call or email, and your message will be directed to the right staff."
+      ]
+    },
+      {
+        "tag": "term_dates",
+        "patterns": [
+          "When do school terms start and end?",
+          "What are the school holiday dates?",
+          "Can I see the term dates?",
+          "When is the next school break?",
+          "When are half terms?",
+          "What is the school calendar?",
+          "When is the last day of term?",
+          "When does the new term begin?",
+          "What are the dates for school terms?",
+          "When do school holidays fall?",
+          "When does the term start?",
+          "When is school closed for holidays?",
+          "What are this year’s term dates?",
+          "Where can I find term dates?",
+          "Is school open during half term?",
+          "When do children return to school?",
+          "When are inset days?",
+          "When does summer term start?",
+          "What is the school year schedule?",
+          "When is the next school day off?"
+        ],
+        "responses": [
+          "Our full term calendar is available on the school website under 'Term Dates.'",
+          "We follow the Hampshire school term dates. Check our calendar for inset and holiday closures."
+        ]
+      },
+      {
+        "tag": "attendance_policy",
+        "patterns": [
+          "What is your attendance policy?",
+          "Is attendance mandatory?",
+          "Can I take my child out during term?",
+          "What are the rules around absences?",
+          "Do I need to report my child’s absence?",
+          "Is it okay to take a holiday during term?",
+          "Do I need a note for absence?",
+          "What is the school’s absence policy?",
+          "Is there a penalty for missing school?",
+          "Do you allow term-time holidays?",
+          "What is the attendance expectation?",
+          "Can I take my child out for a trip?",
+          "What is unauthorised absence?",
+          "Who do I notify if my child is absent?",
+          "How many days can my child miss?",
+          "Are absences monitored?",
+          "Is 100% attendance required?",
+          "What is considered a valid absence?"
+        ],
+        "responses": [
+          "Attendance is compulsory. Absences must be reported by 9am via phone or email.",
+          "Term-time holidays are not authorised unless under exceptional circumstances."
+        ]
+      },
+      {
+        "tag": "safeguarding",
+        "patterns": [
+          "What are the school’s safeguarding policies?",
+          "How do you keep children safe?",
+          "Who is the safeguarding lead?",
+          "What if I have a safeguarding concern?",
+          "Is there a designated safeguarding officer?",
+          "How are safeguarding issues handled?",
+          "What training do staff have for safeguarding?",
+          "Can I report a safeguarding concern?",
+          "What is your child protection policy?",
+          "What happens if there’s a concern about a child?",
+          "Do you follow safeguarding regulations?",
+          "Who should I contact for safeguarding?",
+          "Are there safeguarding procedures in place?",
+          "What is the school’s approach to safety?",
+          "How does the school prevent abuse?",
+          "Is there a policy on bullying and harm?",
+          "Are students monitored for wellbeing?",
+          "Do you work with social services?",
+          "How are vulnerable students supported?",
+          "Is safeguarding taken seriously at school?"
+        ],
+        "responses": [
+          "Our designated safeguarding lead is Mrs. Mather. Any concerns should be reported to her or the school office.",
+          "We follow the local authority’s safeguarding policy and all staff are trained regularly."
+        ]
+      },
+      {
+        "tag": "bullying_policy",
+        "patterns": [
+          "What is your policy on bullying?",
+          "How does the school handle bullying?",
+          "Who do I talk to if my child is being bullied?",
+          "What if my child is bullied at school?",
+          "Do you take bullying seriously?",
+          "Is there an anti-bullying policy?",
+          "How do you deal with bullies?",
+          "What support is there for bullied students?",
+          "Can I report bullying?",
+          "Is bullying common at school?",
+          "Who handles bullying reports?",
+          "What is done about bullying?",
+          "Are there rules against bullying?",
+          "Do you investigate bullying complaints?",
+          "How can I raise a bullying concern?",
+          "What steps are taken to stop bullying?",
+          "Are teachers trained on bullying prevention?",
+          "Does the school monitor bullying?",
+          "Can students report bullying anonymously?",
+          "Is cyberbullying addressed by the school?"
+        ],
+        "responses": [
+          "We have a zero-tolerance bullying policy. Any incidents should be reported to the class teacher or school leadership.",
+          "Support is provided to both the victim and the perpetrator, and all reports are taken seriously."
+        ]
+      },
+      {
+        "tag": "home_learning",
+        "patterns": [
+          "Do you assign homework?",
+          "Is there home learning?",
+          "How much homework is given?",
+          "What is the homework policy?",
+          "Do children bring work home?",
+          "Is homework daily?",
+          "Can I support my child’s learning at home?",
+          "What kind of homework is set?",
+          "Is homework required?",
+          "Where do I find my child’s homework?",
+          "How do children submit homework?",
+          "Is homework digital or paper-based?",
+          "When is homework due?",
+          "Can I help my child with homework?",
+          "Do you mark homework?",
+          "Is there a home learning platform?",
+          "Is homework part of grades?",
+          "How much time should be spent on homework?",
+          "What if homework is not done?",
+          "Do all year groups get homework?"
+        ],
+        "responses": [
+          "Home learning is assigned regularly and tailored to each year group’s curriculum.",
+          "Homework expectations are shared at the start of term and through class newsletters."
+        ]
+      },
+      {
+        "tag": "school_trips",
+        "patterns": [
+          "Do you organise school trips?",
+          "Are there educational visits?",
+          "Will my child go on trips?",
+          "How do school trips work?",
+          "Do I have to pay for trips?",
+          "Are trips during school hours?",
+          "What kind of trips are planned?",
+          "Do all students attend trips?",
+          "How are trips supervised?",
+          "Can parents come on trips?",
+          "Is permission needed for trips?",
+          "Are school trips optional?",
+          "Are there overnight trips?",
+          "How often are school trips?",
+          "Do you visit museums or parks?",
+          "Will there be transport for trips?",
+          "How are trips funded?",
+          "Where do school trips go?",
+          "Is there a cost for outings?",
+          "Can I opt my child out of trips?"
+        ],
+        "responses": [
+          "We organise regular school trips that align with classroom learning. Parents will be notified in advance.",
+          "Most trips are during school hours and require permission slips and a voluntary contribution."
+        ]
+      },
+      {
+        "tag": "medical_needs",
+        "patterns": [
+          "What if my child needs medicine?",
+          "Can the school give my child medication?",
+          "What is your medical policy?",
+          "Do you support children with medical needs?",
+          "Is there a school nurse?",
+          "Can I send medicine with my child?",
+          "How are allergies handled?",
+	  "Are nuts, gluten allowed in school school?",
+          "Who gives out medication at school?",
+          "What if my child has asthma?",
+          "Can you store my child’s medicine?",
+          "Do you allow inhalers in school?",
+          "Is there first aid at school?",
+          "What happens if my child gets ill?",
+          "Who do I talk to about medical care?",
+          "Do I need to fill out a medical form?",
+          "Can my child carry their own medicine?",
+          "What if my child needs an epi-pen?",
+          "Are there trained first aiders?",
+          "Is there a health care plan for my child?",
+          "Can school administer prescribed meds?"
+        ],
+        "responses": [
+          "We can administer prescribed medication with written consent. Please contact the school office.",
+          "Health care plans are created for children with medical needs and reviewed regularly with parents."
+        ]
+      },
+      {
+        "tag": "parent_communication",
+        "patterns": [
+          "How do you communicate with parents?",
+          "Will I get updates from school?",
+          "Do you send newsletters?",
+          "How do I stay informed?",
+          "Do you use a parent app?",
+          "How do you share school news?",
+          "Are emails sent to parents?",
+          "Do I get notifications from school?",
+          "Can I get updates about my child?",
+          "How do you share homework info?",
+          "Is there a school newsletter?",
+          "What platform do you use to communicate?",
+          "Do you send letters home?",
+          "How often do parents get updates?",
+          "Can I speak with my child's teacher?",
+          "Is there a messaging app for school?",
+          "Are term events shared with parents?",
+          "How can I check on my child’s progress?",
+          "Do you hold parent meetings?",
+          "How is important info communicated?"
+        ],
+        "responses": [
+          "We use email and the ParentMail app to send newsletters, reminders, and updates.",
+          "Teachers are available for communication at drop-off or via appointment. Regular updates are shared each term."
+        ]
+      },
+      {
+        "tag": "special_education",
+        "patterns": [
+          "Do you support children with special needs?",
+          "What SEN support is available?",
+          "Who is the SEND coordinator?",
+          "Can you help with my child’s learning needs?",
+          "Do you offer IEPs?",
+          "How are special needs accommodated?",
+          "Do you have a SEN policy?",
+          "What support is there for children with autism?",
+          "Is there one-to-one support?",
+          "How do you assess special needs?",
+          "Can my child get extra help?",
+          "Are learning difficulties supported?",
+          "How do I get my child assessed?",
+          "Who do I contact about SEN?",
+          "Is there support for ADHD?",
+          "What help do you provide for dyslexia?",
+          "Are EHCPs supported?",
+          "Do you adapt lessons for SEN students?",
+          "What interventions are available?",
+          "Do TAs support children with needs?"
+        ],
+        "responses": [
+          "We have a dedicated SENCO, Mrs. Johnson, who oversees all additional support and referrals.",
+          "We offer tailored support plans and work closely with families to ensure every child’s needs are met."
+        ]
+      },
+{
+          "tag": "ending",
+          "patterns": [
+            "Goodbye",
+            "Bye",
+            "That is all",
+            "Thanks",
+        	"I'm done",
+        	"Bye bye",
+        	"Thank you",
+        	"All done",
+        	"Bye OSK"
+          ],
+          "responses": [
+            "Great. I hope I've answered your questions.  Come back if I can help again."
+      ]
+    },
+      {
+        "tag": "school_values",
+        "patterns": [
+          "What are your school values?",
+          "Do you have a mission statement?",
+          "What is the ethos of the school?",
+          "What does your school believe in?",
+          "What are your educational values?",
+          "What kind of culture does the school promote?",
+          "What are your core principles?",
+          "Do you follow a value-based education?",
+          "How do you promote respect and kindness?",
+          "Is there a school motto?",
+          "What values do you teach students?",
+          "How are values integrated into learning?",
+          "What’s the vision of the school?",
+          "Do you promote equality?",
+          "Are British values taught?",
+          "What do you focus on beyond academics?",
+          "Is kindness a focus?",
+          "Do children learn about responsibility?",
+          "What are the behavioural expectations?",
+          "How do you teach morals and respect?"
+        ],
+        "responses": [
+          "We focus on respect, kindness, resilience, and honesty as key school values.",
+          "Our mission is to create confident, compassionate learners who make a positive impact."
+        ]
+      },
+      {
+  "tag": "school_fees",
+  "patterns": [
+    "Are there any school fees?",
+    "Do I need to pay for anything?",
+    "Is school free?",
+    "What costs are involved?",
+    "Do I have to pay for lunches?",
+    "Are clubs paid?",
+    "Are school trips included?",
+    "Is there a fee for school uniform?",
+    "Do I need to buy any books?",
+    "Are extracurricular activities free?",
+    "Are meals free for all pupils?",
+    "Is education at your school free?",
+    "Are there charges for school activities?",
+    "Do I need to pay for a PE kit?",
+    "Is there a charge for school photos?",
+    "Do I pay for learning materials?",
+    "What should I budget for?",
+    "Are there optional paid activities?"
+  ],
+  "responses": [
+    "Education at our school is free. Some optional extras like clubs, school trips, and meals may have associated costs.",
+    "Wrap-around care, lunches for Years 3–6, some extracurricular clubs, and optional activities might involve a charge. We always notify parents in advance."
+  ]
+},
+{
+      "tag": "admissions_transition",
+      "patterns": [
+        "How do I apply for a place?",
+        "What is the admissions process?",
+        "When can my child start school?",
+        "Do you have open days?",
+        "How do I transfer my child to your school?",
+        "Is there a school tour?",
+        "Who do I speak to about admissions?",
+        "Can I move my child mid-year?",
+        "Is there a waiting list?",
+        "How do transitions work for new students?"
+      ],
+      "responses": [
+        "Admissions follow Hampshire County Council's process. You can apply online or contact the school office for guidance.",
+        "We support smooth transitions with visits and meetings before your child starts."
+      ]
+    },
+    {
+      "tag": "oftsed_report",
+      "patterns": [
+        "What is your Ofsted rating?",
+        "Where can I read your Ofsted report?",
+        "Have you been inspected by Ofsted?",
+        "Is the school good according to Ofsted?",
+        "When was your last Ofsted inspection?",
+        "Can I see your Ofsted results?",
+        "Is your school rated good or outstanding?",
+        "Where do I find your Ofsted rating?",
+        "Can I view the Ofsted report online?",
+        "What did Ofsted say about the school?"
+      ],
+      "responses": [
+        "Our latest Ofsted report is available on the Ofsted website or via our school website's 'About Us' section.",
+        "We were last inspected in October 2024 and received a good rating."
+      ]
+    },
+    {
+      "tag": "curriculum_details",
+      "patterns": [
+        "What curriculum do you follow?",
+        "Can I see what subjects are taught?",
+        "Do you teach phonics?",
+        "Is there a curriculum overview?",
+        "What topics are covered each year?",
+        "How is the curriculum structured?",
+        "Can I see the curriculum for Year 3?",
+        "Do you teach the National Curriculum?",
+        "What do children learn in each subject?",
+        "Where do I find the curriculum details?"
+      ],
+      "responses": [
+        "We follow the National Curriculum, adapted to meet our pupils’ needs. Curriculum overviews are available on our website.",
+        "Subjects include English, Maths, Science, Computing, PE, Art, Geography, History, and PSHE."
+      ]
+    },
+      {
+        "tag": "volunteering",
+        "patterns": [
+          "Can I volunteer at the school?",
+          "Do you allow parent volunteers?",
+          "How can I help at school?",
+          "Can I assist in class?",
+          "Do you need parent helpers?",
+          "Can I help with school trips?",
+          "Are volunteers welcome?",
+          "How do I sign up to volunteer?",
+          "Can I read with children?",
+          "Do I need a DBS to volunteer?",
+          "Can I help in the library?",
+          "Are volunteers allowed on site?",
+          "Can I support learning in class?",
+          "Do you use PTA volunteers?",
+          "Is parental help encouraged?",
+          "What roles are open to volunteers?",
+          "Do I need training to volunteer?",
+          "How often can I volunteer?",
+          "Can I chaperone school events?",
+          "Is there a volunteer application?"
+        ],
+        "responses": [
+            "We welcome volunteers! Please contact the school office to express interest and complete a DBS check.",
+            "Parent volunteers often support reading, trips, and clubs. We'd love to have your help."
+          ]},
+          {
+              "tag": "class_teachers",
+              "patterns": [
+                "Who are the class teachers?",
+                "Can you tell me the names of the class teachers?",
+                "Who teaches which class?",
+                "Who are the teachers for each year group?",
+                "Who is my child's class teacher?",
+                "Where can I find the list of teachers?",
+                "Which teachers are assigned to each class?",
+                "Who are the main classroom teachers?",
+                "Who is the teacher for Year 1?",
+                "Who is the Reception class teacher?",
+        		"What is my child's class?",
+            	"What is Year x class?",
+                "What is Yr x class?",
+            	"What class is my Year x child in?",
+        		"What class is my Yr x child in?"
+              ],
+              "responses": [
+                "Class teacher information is shared at the start of each academic year and is available on the school website.",
+                "Please check your child's class newsletter or the school website for current class teacher assignments."
+              ]
+            },
+            {
+              "tag": "pe_uniform",
+              "patterns": [
+                "What is the PE uniform?",
+                "What should my child wear for PE?",
+		"What should my child wear for sports?",
+                "What are the PE kit requirements?",
+                "What do children need for PE?",
+                "What should my child bring for sports?",
+                "What is the sports uniform?",
+                "Is there a special PE kit?",
+                "Do kids need trainers for PE?",
+                "What colour is the PE kit?",
+                "Can you tell me about the PE uniform?",
+        	"Can my child wear any clothes for PE?",
+        	"Can my child wear any clothes for sports?",
+            	"What is school PE kit?"
+              ],
+              "responses": [
+                "Children should wear a white t-shirt, navy or black shorts, and black trainers for PE. In colder weather, navy or black tracksuits are allowed.",
+                "PE kit includes a plain white top, dark shorts or tracksuit bottoms, and suitable black sports shoes. Please label all items clearly."
+              ]
+            },
+            {
+              "tag": "pe_days",
+              "patterns": [
+                "When are PE days?",
+                "What days does my child have PE?",
+                "When should my child wear their PE kit?",
+                "What days are sports lessons?",
+                "On what days do kids have PE?",
+                "Which days are PE days?",
+                "When should students come in PE uniform?",
+                "What days is PE scheduled?",
+                "What is the PE timetable?",
+                "Can you tell me the PE days for each class?",
+        		"When is PE for my child",
+    	        "What day is PE for year x?",
+        		"What day is PE for yr x?",
+        		"When is PE for yr x?",
+        		"When is PE for year x?",
+        		"I need to find out PE days?",
+        		"I need to find out what days PE is on?",
+        		"Is tomorrow a PE day for year x?",
+        		"Is tomorrow a PE day for yr x?"
+              ],
+              "responses": [
+                "PE days are shared by each class teacher at the start of term. Children should come to school in their PE kit on those days.",
+                "Please check your child's class newsletter or Seesaw announcements for their specific PE days."
+              ]
+            },
+            {
+              "tag": "sickness_policy",
+              "patterns": [
+                "What is the sickness policy?",
+                "When should I keep my child off school?",
+                "What happens if my child is sick?",
+                "What are the rules if my child is ill?",
+                "Do I need to inform the school if my child is sick?",
+                "How long after illness can my child return?",
+                "Can my child attend school with a cold?",
+                "When should children stay home sick?",
+                "What is the policy for contagious illnesses?",
+                "How do I report a sickness absence?",
+        		"What do I do if my child is sick?", 
+        		"What if my child is unwell?", 
+        		"What if my kid is poorly?", 
+        		"How do I report sickness?", 
+        		"How long off if sick?", 
+        		"Do I have to report Illness every day?", 
+        		"My child's ill. What is process?", 
+        		"How do I tell you my childs poorly?", 
+        		"How do I tell you my child is Ill?", 
+        		"What to do if my child is ill?", 
+        		"What is your sickness process?", 
+        		"What do I do if my child is poorly?", 
+        		"What do I do if my child is unwell?"
+              ],
+              "responses": [
+                "If your child is unwell, please notify the school office before 9am. Children should remain at home for 48 hours after vomiting or diarrhea.",
+                "Children should stay home if they are sick. Please inform the school office by 9am and follow NHS guidelines for return after illnesses."
+              ]
+            },
+            {
+              "tag": "calendar_events",
+              "patterns": [
+                "Where can I find school calendar events?",
+                "What events are coming up at school?",
+                "Is there a calendar of school events?",
+                "How do I know when school events are?",
+                "Where is the list of upcoming school events?",
+                "What important dates should I know?",
+                "When is the school fair?",
+                "When are parent evenings?",
+                "Where can I find term dates and events?",
+                "Is there a school calendar online?",
+        		"What day is...on?", 
+        		"When are school events?", 
+        		"What is the next school event?", 
+        		"How do I know when stuff is?", 
+        		"How do I know when something is?",
+        		"When are events?", 
+        		"Where do I find event dates?", 
+        		"Is there a school calendar?", 
+        		"Is there a list of events?"
+              ],
+              "responses": [
+                "All upcoming events are listed on the school calendar available on the website. Reminders are also sent via Seesaw and newsletters.",
+                "You can view important dates and events on the school website calendar or check weekly newsletters for updates."
+          ]
+        },
+        {
+              "tag": "greeting",
+              "patterns": [
+                "Hello",
+                "Hi",
+                "Hey there", 
+                "Hi OSK"
+              ],
+              "responses": [
+                "I'm OSK, the school chatbot. How can I help?"
+      ]
+    }
+]
+      }
+
+  

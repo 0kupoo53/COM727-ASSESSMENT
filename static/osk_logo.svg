@@ -1,0 +1,22 @@
+
+<svg width="300" height="150" viewBox="0 0 300 150" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .text { font-family: sans-serif; fill: black; }
+    .title { font-size: 32px; font-weight: bold; }
+    .subtitle { font-size: 14px; letter-spacing: 5px; }
+  </style>
+
+  <!-- Circles and Lines (Graph nodes) -->
+  <circle cx="60" cy="40" r="8" fill="black" />
+  <circle cx="100" cy="40" r="8" fill="black" />
+  <circle cx="60" cy="80" r="8" fill="black" />
+  <circle cx="80" cy="60" r="8" fill="white" stroke="black" stroke-width="8" />
+  <line x1="60" y1="40" x2="100" y2="40" stroke="black" stroke-width="4" />
+  <line x1="60" y1="40" x2="60" y2="80" stroke="black" stroke-width="4" />
+
+  <!-- Letters -->
+  <text x="70" y="100" class="text title">SK</text>
+
+  <!-- Subtext -->
+  <text x="70" y="120" class="text subtitle">SCHOOL</text>
+</svg>
