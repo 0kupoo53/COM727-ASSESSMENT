@@ -77,7 +77,7 @@ def get_response(intents_list, intents_json):
 
 def predict_intent(text):
     # convert to lower case for comparison
-    test = text.lower()
+    text = text.lower()
     # predict the class
     ints = predict_class(text)
     # if no class matched then write apology message with 'fallback' as tag. Otherwise return highest probabilty response with class

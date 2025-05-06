@@ -19,9 +19,23 @@ lemmatizer = WordNetLemmatizer()
 
 # load training data
 # Open and load the JSON file with proper encoding
-with open('osk.json', 'r', encoding='utf-8') as file:
-    intents = json.load(file)
 
+# define location of training data
+import os
+script_dir = os.path.dirname(os.path.abspath(__file__))
+file_path = os.path.join(script_dir, 'osk.json')
+
+# load training data
+# Open and load the JSON file with proper encoding
+try:
+    with open(file_path, 'r', encoding='utf-8') as file:
+        intents = json.load(file)
+except FileNotFoundError as e:
+    print(f"File does not exist in this location: {e}")
+    intents = {}
+except json.JSONDecodeError as e:
+    print(f"Error decoding JSON: {e}")
+    intents = {}
 # create empty lists to recieve data
 words = []
 classes = []
