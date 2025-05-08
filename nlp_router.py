@@ -80,14 +80,28 @@ def predict_intent(text):
     text = text.lower()
     # predict the class
     ints = predict_class(text)
+    # Define confidence threshold
+    CONFIDENCE_THRESHOLD = 0.6
     # if no class matched then write apology message with 'fallback' as tag. Otherwise return highest probabilty response with class
-    if len(ints) == 0:
+    if len(ints) == 0 or float(ints[0]['probability']) < CONFIDENCE_THRESHOLD:
         tag = "fallback"
-        res = "Sorry, I'm not sure I know that."
+        res = "Sorry, I'm not sure I know that. Could you rephrase?"
     else:
         tag = ints[0]['intent']
         res = get_response(ints, intents)
+    
     return tag, res
+
+if __name__ == "__main__":
+    print("OSK Chatbot is ready! Type 'quit' to exit.\n")
+    while True:
+        msg = input("You: ")
+        if msg.lower() == "quit":
+            print("Bot: Goodbye!")
+            break
+        tag, response = predict_intent(msg)
+        print(f"Bot ({tag}): {response}")
+
 # In[ ]:
 
 
